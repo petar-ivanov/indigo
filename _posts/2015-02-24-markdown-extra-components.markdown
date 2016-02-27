@@ -1,6 +1,6 @@
 ---
-title: "Markdown Extra Components"
 layout: post
+title: "Markdown Extra Components"
 date: 2016-02-24 22:48
 tag:
 - markdown

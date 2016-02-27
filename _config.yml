@@ -1,5 +1,5 @@
-name: Petar Ivanov (Pesho)
-bio: ':")'
+name: Petar Ivanov
+bio: 'Pesho :")'
 
 # main text of home
 picture: 'assets/images/profile.jpg'
@@ -27,6 +27,7 @@ github: petar-ivanov
 email: peter.ivanov89@gmail.com
 # TODO: CV
 # TODO: photos
+rss: true
 # TODO: RSS
 
 # if you don't need pagination, comment the *paginate* configs below
@@ -34,7 +35,7 @@ email: peter.ivanov89@gmail.com
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need about or blog, comment them out below
 about: true
