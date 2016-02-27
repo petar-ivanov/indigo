@@ -25,6 +25,9 @@ disqus: peshoinfo
 #spotify: myspotify
 github: petar-ivanov
 email: peter.ivanov89@gmail.com
+# TODO: CV
+# TODO: photos
+# TODO: RSS
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
