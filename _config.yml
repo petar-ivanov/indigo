@@ -14,7 +14,7 @@ markdown: kramdown
 highlighter: rouge
 
 analytics-google: 'UA-42975539-2'
-disqus: mydisqus
+disqus: peshoinfo
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
