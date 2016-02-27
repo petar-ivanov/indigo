@@ -1,10 +1,11 @@
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Petar Ivanov (Pesho)
+bio: ':")'
 
 # main text of home
 picture: 'assets/images/profile.jpg'
 
-url: http://sergiokopplin.github.io/indigo
+url: http://pesho.info
+# http://pesho.github.io/indigo
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -12,18 +13,18 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
-analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-42975539-2'
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+#linkedin: mylinkedin
+#youtube: myyoutube
+#spotify: myspotify
+github: petar-ivanov
+email: peter.ivanov89@gmail.com
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
