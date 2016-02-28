@@ -65,4 +65,18 @@ gems:
 jekyll-mentions:
     base_url: https://github.com
 
+collections:
+  posts_ru:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts_ru"
+    values:
+      layout: page
+      blog: true
+      # category: "bg"
+
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
