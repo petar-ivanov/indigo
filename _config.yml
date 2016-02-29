@@ -1,5 +1,5 @@
 name: Petar Ivanov
-bio: 'Pesho :")'
+bio: '...or just Pesho :")'
 
 # main text of home
 picture: 'assets/images/profile.jpg'
@@ -17,15 +17,16 @@ analytics-google: 'UA-42975539-2'
 disqus: peshoinfo
 
 # if you don't have any of social below, comment the line
+cv: https://github.com/petar-ivanov/cv/raw/master/CV-Petar-Ivanov.pdf
 #facebook: myfacebook
 #twitter: mytwitter
 #instagram: myinstagram
 #linkedin: mylinkedin
 #youtube: myyoutube
 #spotify: myspotify
+photos: https://picasaweb.google.com/109307985285518150648  # Pesho's public Picasa album
 github: petar-ivanov
 email: peter.ivanov89@gmail.com
-# TODO: CV
 # TODO: photos
 rss: true
 # TODO: RSS

@@ -1,4 +1,16 @@
 <div class="social-links">
+    {% if site.cv %}
+    <a class="link" data-title="cv&nbsp[pdf]" href="{{ site.cv }}" target="_blank">
+            <svg class="icon icon-graduation-cap"><use xlink:href="#icon-graduation-cap"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.photos %}
+        <a class="link" data-title="photos" href="{{ site.photos }}" target="_blank">
+            <svg class="icon icon-camera-retro"><use xlink:href="#icon-camera-retro"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
@@ -12,7 +24,7 @@
     {% endif %}
 
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <a class="link" data-title="github" href="https://github.com/{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
@@ -36,12 +48,12 @@
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" target="_blank">
+        <a class="link" data-title="email" href="mailto:{{ site.email }}" target="_blank">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
         </a>
     {% endif %}
 
     {% if site.rss %}
-    <a class="link" data-title="RSS feed" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
+    <a class="link" data-title="rss" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
     {% endif %}
 </div>
