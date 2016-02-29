@@ -29,8 +29,9 @@ photos: https://picasaweb.google.com/109307985285518150648  # Pesho's public Pic
 github: petar-ivanov
 topcoder: cheater_no1
 email: peter.ivanov89@gmail.com
+protonmail: pesho
 # TODO: photos
-rss: true
+# rss: true
 # TODO: RSS
 
 # if you don't need pagination, comment the *paginate* configs below

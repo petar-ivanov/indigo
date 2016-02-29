@@ -5,6 +5,36 @@
         </a>
     {% endif %}
 
+    {% if site.github %}
+        <a class="link" data-title="github" href="https://github.com/{{ site.github }}" target="_blank">
+            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/{{ site.linkedin }}" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.email %}
+        <a class="link" data-title="email" href="mailto:{{ site.email }}" target="_blank">
+            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.protonmail %}
+        <a class="link" data-title="protonmail" href="mailto:{{ site.protonmail }}@protonmail.ch" target="_blank">
+            <svg class="icon icon-protonmail"><use xlink:href="#icon-protonmail"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.rss %}
+    <a class="link" data-title="rss" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
+    {% endif %}
+
+    <br/>
+
     {% if site.couchsurfing %}
         <a class="link" data-title="couchsurfing" href="https://www.couchsurfing.com/people/{{ site.couchsurfing }}" target="_blank">
             <svg class="icon icon-couchsurfing"><use xlink:href="#icon-couchsurfing"></use></svg>
@@ -29,21 +59,9 @@
         </a>
     {% endif %}
 
-    {% if site.github %}
-        <a class="link" data-title="github" href="https://github.com/{{ site.github }}" target="_blank">
-            <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.instagram %}
         <a class="link" data-title="instagram.com/{{ site.instagram }}" href="http://instagram.com/{{ site.instagram }}" target="_blank">
             <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/{{ site.linkedin }}" href="http://linkedin.com/{{ site.linkedin }}" target="_blank">
-            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
 
@@ -57,15 +75,5 @@
         <a class="link" data-title="topcoder" href="https://www.topcoder.com/members/{{ site.topcoder }}" target="_blank">
             <svg class="icon icon-topcoder"><use xlink:href="#icon-topcoder"></use></svg>
         </a>
-    {% endif %}
-
-    {% if site.email %}
-        <a class="link" data-title="email" href="mailto:{{ site.email }}" target="_blank">
-            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.rss %}
-    <a class="link" data-title="rss" href="{{ site.url }}/feed.xml" target="_blank"><svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg></a>
     {% endif %}
 </div>
