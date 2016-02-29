@@ -75,8 +75,8 @@ defaults:
       path: ""
       type: "posts_ru"
     values:
-      layout: page
       blog: true
+      permalink: /:title/
       # category: "bg"
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
