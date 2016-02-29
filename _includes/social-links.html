@@ -1,7 +1,13 @@
 <div class="social-links">
     {% if site.cv %}
-    <a class="link" data-title="cv&nbsp[pdf]" href="{{ site.cv }}" target="_blank">
+    <a class="link" data-title="cv" href="{{ site.cv }}" target="_blank">
             <svg class="icon icon-graduation-cap"><use xlink:href="#icon-graduation-cap"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.couchsurfing %}
+        <a class="link" data-title="couchsurfing" href="https://www.couchsurfing.com/people/{{ site.couchsurfing }}" target="_blank">
+            <svg class="icon icon-couchsurfing"><use xlink:href="#icon-couchsurfing"></use></svg>
         </a>
     {% endif %}
 
