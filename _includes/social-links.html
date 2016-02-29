@@ -47,6 +47,12 @@
         </a>
     {% endif %}
 
+    {% if site.topcoder %}
+        <a class="link" data-title="topcoder" href="https://www.topcoder.com/members/{{ site.topcoder }}" target="_blank">
+            <svg class="icon icon-topcoder"><use xlink:href="#icon-topcoder"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="email" href="mailto:{{ site.email }}" target="_blank">
             <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
