@@ -30,9 +30,7 @@ github: petar-ivanov
 topcoder: cheater_no1
 email: peter.ivanov89@gmail.com
 protonmail: pesho
-# TODO: photos
 # rss: true
-# TODO: RSS
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -76,7 +74,10 @@ defaults:
       layout: "post"
     values:
       blog: true
-      # permalink: /:title/
-      # category: "bg"
+#  -
+#    scope:
+#      path: "_posts/msu"
+#     # permalink: /:title/
+#      category: "bg"
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh]
