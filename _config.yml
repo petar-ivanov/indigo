@@ -4,8 +4,8 @@ bio: '...or just Pesho :")'
 # main text of home
 picture: 'assets/images/profile.jpg'
 
-# url: http://pesho.info
-url: http://petar-ivanov.github.io/pesho.info
+url: http://pesho.info
+# url: http://petar-ivanov.github.io/pesho.info
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
