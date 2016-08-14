@@ -1,11 +1,11 @@
-name: Petar Ivanov
+name: Pesho Ivanov
 bio: '...or just Pesho :")'
 
 # main text of home
 picture: 'assets/images/profile.jpg'
 
 url: http://pesho.info
-# url: http://petar-ivanov.github.io/pesho.info
+# url: http://pesho-ivanov.github.io/pesho.info
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -17,7 +17,7 @@ analytics-google: 'UA-42975539-2'
 disqus: peshoinfo
 
 # if you don't have any of social below, comment the line
-cv: https://github.com/petar-ivanov/cv/raw/master/CV-Petar-Ivanov.pdf
+cv: https://github.com/pesho-ivanov/cv/raw/master/CV-Petar-Ivanov.pdf
 #facebook: myfacebook
 #twitter: mytwitter
 #instagram: myinstagram
@@ -26,7 +26,7 @@ cv: https://github.com/petar-ivanov/cv/raw/master/CV-Petar-Ivanov.pdf
 #spotify: myspotify
 couchsurfing: pesho
 photos: https://picasaweb.google.com/109307985285518150648  # Pesho's public Picasa album
-github: petar-ivanov
+github: pesho-ivanov
 topcoder: cheater_no1
 email: peter.ivanov89@gmail.com
 protonmail: pesho
