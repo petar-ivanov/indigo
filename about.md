@@ -5,7 +5,7 @@ permalink: /about/index.html
 ---
 ![Pesho's picture]({{ site.url }}/{{ site.picture }})
 
-My name is **Petar Ivanov** (Bulgarian: _Петър Иванов_) and Science is my passion. I think of myself as an algorithmist, an applied scientist and an everyday dilettante with child's curiosity. I admire [Richard Feynman]. <!--- Add more idols -->
+My name is Petar Ivanov (Bulgarian: _Петър Иванов_) but you can call me just **Pesho** (Bul: _Пешо_). Science is my passion. I think of myself as an algorithmist, an applied scientist and an everyday dilettante with child's curiosity. I admire [Richard Feynman]. <!--- Add more idols -->
 
 During high school, the most interesting activities for me were the [Olympiads in Informatics] — a sport that showed me the power of thinking algorithmically. Then I suddenly discovered something even more fascinating as a student of Applied Math and Informatics at Moscow State University — imagination can be boosted by real problems with no known solution. And solving them still needs the same modelling and computation skills developed earlier. I hope to become a PhD student in love with his research topic, looking for the next most thrilling activity in life.
 
